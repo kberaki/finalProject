@@ -69,4 +69,5 @@ elForm.addEventListener('submit', function(event){
   console.log(newDevelopers)
   //newDevelopers =[]
   DevLog.newNameOfDev()
+  
 })
