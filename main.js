@@ -24,8 +24,6 @@ if(localStorage.local){
 console.log(newDevelopers)
 
 
-localStorage.setItem('local', JSON.stringify(newDevelopers))
-
 
 let elDevNewName
 let eltitleName = document.createElement('ol')
@@ -70,4 +68,6 @@ elForm.addEventListener('submit', function(event){
   //newDevelopers =[]
   DevLog.newNameOfDev()
   
+  localStorage.setItem('local', JSON.stringify(newDevelopers))
+
 })
