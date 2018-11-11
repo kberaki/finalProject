@@ -1,0 +1,29 @@
+.nav{
+  background-color: aqua;
+  color: blueviolet;
+  font-size: 5em;
+  text-align: center
+
+}
+.aside{
+  background-color: blanchedalmond;
+  width: 20%;
+  height: cover;
+  float: left;
+
+}
+section{
+  width: 80%;
+  float: left;
+  background-color: rgb(0, 225, 255)
+}
+form{
+  width: 80%;
+  background-color: aquamarine;
+  float: left;
+}
+h2{
+  color: brown;
+  text-align: center;
+
+}
